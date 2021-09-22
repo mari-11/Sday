@@ -1,7 +1,7 @@
 import React from "react";
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
-import ProductList from "../ProductList";
+
 
 function Nav() {
 
@@ -35,6 +35,13 @@ function Nav() {
               Login
             </Link>
           </li>
+
+          <li className="mx-1">
+            <Link to="/about">
+              About Us
+            </Link>
+          </li>
+
         </ul>
       );
     }

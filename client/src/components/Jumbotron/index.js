@@ -1,12 +1,12 @@
 import React from "react";
-import heroBanner from '../../assets/hero-banner.gif'
+import aboutUsBanner from '../../assets/about-us.jpg';
 
 function Jumbotron({ children }) {
   return (
     <div
       style={{ height: 560, clear: "both", paddingTop: 120, textAlign: "center" }}
     >
-      <img src={ heroBanner } alt="" />
+      <img src={ aboutUsBanner } alt="" />
     </div>
   );
 }

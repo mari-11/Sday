@@ -4,6 +4,7 @@ import CategoryMenu from "../components/CategoryMenu";
 import Jumbotron from "../components/Jumbotron";
 import Banner from "../components/Banner"
 import Cart from '../components/Cart';
+// import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Banner />    
       <CategoryMenu />
       <ProductList />
+      <Jumbotron />
       <Cart />
     </div>
   );
