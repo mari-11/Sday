@@ -1,12 +1,14 @@
 import React, { useEffect } from 'react';
 import { useQuery } from '@apollo/client';
-import { idbPromise } from '../../utils/helpers';
-import { useStoreContext } from '../../utils/GlobalState';
-import { UPDATE_CATEGORIES, UPDATE_CURRENT_CATEGORY } from '../../utils/actions';
 import { QUERY_CATEGORIES } from '../../utils/queries';
+import { useStoreContext } from "../../utils/GlobalState";
+import { UPDATE_CATEGORIES, UPDATE_CURRENT_CATEGORY } from '../../utils/actions';
+
+import { idbPromise } from '../../utils/helpers';
 
 
 function CategoryMenu() {
+
   const [state, dispatch] = useStoreContext();
 
   const { categories } = state;
@@ -14,6 +16,7 @@ function CategoryMenu() {
   const { loading, data: categoryData } = useQuery(QUERY_CATEGORIES);
 
   useEffect(() => {
+    // if categoryData exists or has changed from the response of useQuery, then run dispatch()
     if (categoryData) {
       dispatch({
         type: UPDATE_CATEGORIES,
@@ -59,4 +62,3 @@ function CategoryMenu() {
 }
 
 export default CategoryMenu;
-
