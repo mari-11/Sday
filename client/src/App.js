@@ -17,6 +17,10 @@ import Nav from './components/Nav';
 import { StoreProvider } from "./utils/GlobalState";
 import OrderHistory from './pages/OrderHistory';
 
+//TESTING BANNER
+import Banner from './components/Banner';
+
+
 const httpLink = createHttpLink({
   uri: '/graphql',
 });
@@ -41,10 +45,14 @@ function App() {
     <ApolloProvider client={client}>
       <Router>
         <div>
+
+    
+
           <StoreProvider>
             <Nav />
             <Switch>
               <Route exact path="/" component={Home} />
+              <Route exact path="/" component={Banner} />
               <Route exact path="/login" component={Login} />
               <Route exact path="/signup" component={Signup} />
               <Route exact path="/orderHistory" component={OrderHistory} />
