@@ -27,8 +27,7 @@ function Success() {
         }
 
         saveOrder();
-
-    }, [addOrder]);
+     }, [addOrder]);
 
     // RETURN JSX 
     return (
