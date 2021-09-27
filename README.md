@@ -22,14 +22,14 @@
 ## Contribution:
     Contact us first.
 ## Link:
-    https://github.com/Rey79-coder/Sday
+    sdayflowers.com
 ## Questions:
     How are we  going to manage the deliveries and what are the requirments for the flowers shop to be part of our network as vendors?
 ## email:
-    verareyna79@gmail.com
+    marigarden707@gmail.com
 
 ## For additional questions:
-   Please reach me out through my email: verareyna79@gmail.com.
+   Please reach me out through my email: marigarden707@gmail.com
    Here is a video on how to work the application.
 #[Video](Comming up...)
 
