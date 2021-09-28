@@ -8,6 +8,8 @@ const db = require('./config/connection');
 
 const PORT = process.env.PORT || 3001;
 const app = express();
+
+mongodb+srv://maribel222:=Hetr3ra1@cluster0.wuez8.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 const server = new ApolloServer({
   typeDefs,
   resolvers,

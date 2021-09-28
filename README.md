@@ -31,8 +31,7 @@
 ## For additional questions:
    Please reach me out through my email: marigarden707@gmail.com
    Here is a video on how to work the application.
-#[Video](Comming up...)
+#[Video](Coming up...)
 
-For illustration purposes here is a snapshot of real live instance:
-#[Images](https://github.com/Rey79-coder/Sday/blob/main/src/assets/mockup/hero-banner.gif)
+
 

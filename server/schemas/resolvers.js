@@ -1,6 +1,12 @@
 const { AuthenticationError } = require('apollo-server-express');
 const { User, Product, Category, Order } = require('../models');
 const { signToken } = require('../utils/auth');
+const express = require("express")
+const app = express ()
+
+app.get("/", function(res,req) {
+  res.setEncoding("WORKING! ! !")
+})
 // IMPORT STRIPE
 const stripe = require('stripe')('sk_test_4eC39HqLyjWDarjtT1zdp7dc');
 
@@ -152,3 +158,4 @@ const resolvers = {
 };
 
 module.exports = resolvers;
+app.listen(process.env.PORT || 5000)
